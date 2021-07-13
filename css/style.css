@@ -63,11 +63,10 @@ h3 {
 }
 .box_feature {
     position: relative;
-    width: 2.7em;
-    height: 2.4em;
-    margin-right: 0.2em;
-    margin-bottom: 0.15em;
-    
+    width: 5.4em;
+    height: 4.8em;
+    margin-right: 0.4em;
+    margin-bottom: 0.3em;
 }
 .box_feature img {
     object-fit: cover;
