@@ -46,6 +46,16 @@ h3 {
     color: white;
 }
 
+@media screen and (max-width: 768px){
+    h1 {
+        font-size: 0.8em;
+    }
+    
+    h3 {
+        font-size: 0.5em;
+        color: white;
+    }
+}
 .main_banner__content p {
     font-size: 0.24em;
     color: #757575;
