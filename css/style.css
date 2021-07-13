@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper {
-    min-width: 13em;
+    
     background: #000;
 }
 
@@ -44,7 +44,7 @@ h1 {
 }
 
 h3 {
-    font-size: 0.6em;
+    font-size: 0.4em;
     color: white;
 }
 
