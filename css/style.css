@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    
+    min-width: 13em;
     background: #000;
 }
 
