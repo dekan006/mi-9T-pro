@@ -57,6 +57,7 @@ h3 {
     margin: 0.5em auto;
     text-align: center;
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 12em;
     margin-bottom: 0.7em;
@@ -65,9 +66,10 @@ h3 {
     position: relative;
     width: 5.4em;
     height: 4.8em;
-    margin-right: 0.4em;
     margin-bottom: 0.3em;
+    
 }
+
 .box_feature img {
     object-fit: cover;
     width: 100%;
@@ -81,21 +83,6 @@ h3 {
     font-size: .34em;
     line-height: 1.2;
     width: 100%;
-}
-@media screen and (max-width: 768px){
-    .box_feature {
-        width: 5.4em;
-        height: 4.8em;
-        margin-right: 0.4em;
-        margin-bottom: 0.3em;
-    }
-    .title_feature {
-    
-    top: 0.6em;
-    font-size: .3em;
-    line-height: 1.2;
-    
-}
 }
 .section-03 {
     background-image: url(../img/section03_bg.jpg);
