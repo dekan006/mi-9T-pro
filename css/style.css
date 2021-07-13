@@ -85,6 +85,8 @@ h3 {
     .box_feature {
         width: 5.4em;
         height: 4.8em;
+        margin-right: 0.4em;
+        margin-bottom: 0.3em;
     }
     .title_feature {
         position: absolute;
