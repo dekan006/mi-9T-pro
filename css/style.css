@@ -89,6 +89,13 @@ h3 {
         margin-right: 0.4em;
         margin-bottom: 0.3em;
     }
+    .title_feature {
+    
+    top: 0.6em;
+    font-size: .3em;
+    line-height: 1.2;
+    
+}
 }
 .section-03 {
     background-image: url(../img/section03_bg.jpg);
