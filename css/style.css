@@ -81,6 +81,20 @@ h3 {
     line-height: 1.2;
     width: 100%;
 }
+@media screen and (max-width: 768px){
+    .box_feature {
+        width: 5.4em;
+        height: 4.8em;
+    }
+    .title_feature {
+        position: absolute;
+        top: 1.2em;
+        color: #757575;
+        font-size: .38em;
+        line-height: 1.2;
+        width: 100%;
+    }
+}
 .section-03 {
     background-image: url(../img/section03_bg.jpg);
     height: 4em;
