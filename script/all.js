@@ -19,12 +19,7 @@ jQuery(function($) {
             dots: true,
             autoplaySpeed: 2000,
             responsive: [
-                {
-                  breakpoint: 1920,
-                  settings: {
-                    slidesToShow: 3
-                  }
-                },
+                
                 {
                   breakpoint: 768,
                   settings: {
