@@ -222,19 +222,20 @@ video {
 }
 
 .section-06 {
-    max-height: 14em;
+    height: 12em;
     position: relative;
 }
 .section-06__title {
     position: absolute;
     margin: 0 auto;
     top: 0; left: 0; bottom: 0; right: 0;
-    
     z-index: 2;
 }
 .section-06__title_wrap {
     max-width: 12.2em;
     margin: 0 20px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .section-06__title_wrap h3 {
     font-size: 0.4em;
@@ -255,4 +256,17 @@ video {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+@media screen and (max-width: 768px){
+    .section-06__title_wrap h3 {
+        font-size: 0.3em;
+    }
+    .section-06__title_wrap p {
+        font-size: 0.25em;
+    }
+    .item {
+        width: 768px;
+        height: 768px;
+        padding-top: 200px;
+    }
 }
