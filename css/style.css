@@ -222,7 +222,7 @@ video {
 }
 
 .section-06 {
-    height: 12em;
+    
     position: relative;
 }
 .section-06__title {
@@ -262,11 +262,20 @@ video {
         font-size: 0.3em;
     }
     .section-06__title_wrap p {
-        font-size: 0.22em;
+        font-size: 0.20em;
     }
     .item {
         width: 768px;
-        height: 768px;
-        padding-top: 200px;
+        height: 8em;
+        padding-top: 240px;
     }
 }
+}               
+.slider-2 {
+    max-height: 8em;
+}
+.item-2 img{
+    width: 100%;
+    padding: 0 20px;
+}
+
