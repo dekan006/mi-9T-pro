@@ -11,9 +11,10 @@ jQuery(function($) {
             autoplaySpeed: 2000,
         });
       });
-    $(document).ready(function(){
+  
+      $(document).ready(function(){
         $('.slider-2').slick({
-            slidesToShow: 3
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
             dots: true,
